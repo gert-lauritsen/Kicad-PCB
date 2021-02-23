@@ -62,9 +62,9 @@ MISO
 Text GLabel 9050 2950 2    50   Input ~ 0
 MOSI
 Text GLabel 9050 3450 2    50   Input ~ 0
-USB_DP
+USB_P
 Text GLabel 9050 3350 2    50   Input ~ 0
-USB_DM
+USB_N
 Text GLabel 9050 3550 2    50   Input ~ 0
 SWDIO
 Text GLabel 9050 3650 2    50   Input ~ 0
@@ -270,7 +270,7 @@ U 1 1 6031BC54
 P 4450 5225
 F 0 "U?" H 4450 6206 50  0000 C CNN
 F 1 "nRF24L01P" H 4475 5075 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm" H 4650 6025 50  0001 L CIN
+F 2 "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 4650 6025 50  0001 L CIN
 F 3 "http://www.nordicsemi.com/eng/content/download/2726/34069/file/nRF24L01P_Product_Specification_1_0.pdf" H 4450 5325 50  0001 C CNN
 	1    4450 5225
 	1    0    0    -1  
@@ -723,7 +723,7 @@ U 1 1 603453D8
 P 2650 2025
 F 0 "U?" H 2650 2606 50  0000 C CNN
 F 1 "USBLC6-2SC6" H 2925 2725 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 2650 1525 50  0001 C CNN
+F 2 "" H 2650 1525 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 2850 2375 50  0001 C CNN
 	1    2650 2025
 	1    0    0    -1  
@@ -771,9 +771,7 @@ F 3 "" H 2650 2425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2250 2125 0    50   Input ~ 0
-USB_DP
-Text GLabel 3050 2125 2    50   Input ~ 0
-USB_DM
+USB_P
 $Comp
 L power:+5V #PWR?
 U 1 1 6034EB7A
@@ -917,4 +915,7 @@ NoConn ~ 7950 2850
 NoConn ~ 9050 2450
 NoConn ~ 9050 2350
 NoConn ~ 9050 2250
+NoConn ~ 7900 -175
+Text GLabel 3050 2125 2    50   Input ~ 0
+USB_N
 $EndSCHEMATC
