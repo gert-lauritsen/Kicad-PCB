@@ -15,3 +15,4 @@ I dette seminar skal vi se nærmere på PCB-delen af KiCad. Vi skal have lavet d
 + Kontrolleret impedance
 + Export til PCB manufactur
 
+[Optagelse](https://youtu.be/XDtrxlHUUH0)
